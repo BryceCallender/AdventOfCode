@@ -14,7 +14,7 @@ public class Day_02 : BaseDay
 
     private ValueTask<string> Part1()
     {
-        var lines = _input.Split("\n").ToArray();
+        var lines = _input.Split("\n");
 
         var position = 0;
         var depth = 0;
@@ -45,7 +45,7 @@ public class Day_02 : BaseDay
 
     private ValueTask<string> Part2()
     {
-        var lines = _input.Split("\n").ToArray();
+        var lines = _input.Split("\n");
 
         var position = 0;
         var depth = 0;
